@@ -21,17 +21,17 @@ const HeroSection = () => {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
-            Panch<span className="text-primary">Arogya</span>
+          <h1 className="text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+            Panch<span className="text-white">Arogya</span>
           </h1>
 
           {/* Tagline */}
-          <p className="text-xl lg:text-2xl text-foreground/90 mb-6 font-medium">
+          <p className="text-xl lg:text-2xl text-white/90 mb-6 font-medium">
             Blending Ayurveda with Digital Care
           </p>
 
           {/* Description */}
-          <p className="text-lg text-foreground/75 mb-12 max-w-2xl leading-relaxed">
+          <p className="text-lg text-white/80 mb-12 max-w-2xl leading-relaxed">
             A smart platform to simplify Panchakarma therapies with digital scheduling, 
             progress tracking, and patient-centric care for the modern world.
           </p>
@@ -51,17 +51,17 @@ const HeroSection = () => {
           </div>
 
           {/* Trust Indicators */}
-          <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-8 text-foreground/70 text-sm">
+          <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-8 text-white/70 text-sm">
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary mb-1">10,000+</div>
+              <div className="text-2xl font-bold text-white mb-1">10,000+</div>
               <div>Happy Patients</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary mb-1">500+</div>
+              <div className="text-2xl font-bold text-white mb-1">500+</div>
               <div>Ayurvedic Doctors</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary mb-1">95%</div>
+              <div className="text-2xl font-bold text-white mb-1">95%</div>
               <div>Success Rate</div>
             </div>
           </div>
