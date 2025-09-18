@@ -8,48 +8,48 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Base colors - light mode */
-    --background: 120 20% 98%;
-    --foreground: 120 15% 15%;
+    /* Base colors - warm beige Ayurveda theme */
+    --background: 40 30% 92%;
+    --foreground: 25 40% 25%;
 
     /* Card colors */
-    --card: 0 0% 100%;
-    --card-foreground: 120 15% 15%;
+    --card: 40 35% 95%;
+    --card-foreground: 25 40% 25%;
 
     /* Popover colors */
-    --popover: 0 0% 100%;
-    --popover-foreground: 120 15% 15%;
+    --popover: 40 35% 95%;
+    --popover-foreground: 25 40% 25%;
 
-    /* Primary - Ayurveda green */
-    --primary: 120 45% 35%;
-    --primary-foreground: 0 0% 100%;
-    --primary-light: 120 40% 45%;
-    --primary-glow: 120 50% 60%;
+    /* Primary - Golden Ayurveda */
+    --primary: 40 80% 50%;
+    --primary-foreground: 25 40% 15%;
+    --primary-light: 40 70% 60%;
+    --primary-glow: 40 90% 70%;
 
-    /* Secondary - Earth tones */
-    --secondary: 30 25% 85%;
-    --secondary-foreground: 120 15% 15%;
+    /* Secondary - Sage green */
+    --secondary: 90 30% 75%;
+    --secondary-foreground: 25 40% 25%;
 
     /* Muted colors */
-    --muted: 120 15% 95%;
-    --muted-foreground: 120 10% 45%;
+    --muted: 40 25% 88%;
+    --muted-foreground: 25 20% 45%;
 
-    /* Accent - Wellness orange */
-    --accent: 35 85% 65%;
-    --accent-foreground: 0 0% 100%;
+    /* Accent - Warm amber */
+    --accent: 35 75% 55%;
+    --accent-foreground: 40 35% 95%;
 
     /* Therapeutic colors */
-    --therapeutic: 200 50% 50%;
-    --therapeutic-foreground: 0 0% 100%;
+    --therapeutic: 90 40% 45%;
+    --therapeutic-foreground: 40 35% 95%;
 
     /* Destructive */
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
     /* Borders and inputs */
-    --border: 120 20% 88%;
-    --input: 120 20% 92%;
-    --ring: 120 45% 35%;
+    --border: 40 20% 80%;
+    --input: 40 25% 88%;
+    --ring: 40 80% 50%;
 
     --radius: 0.75rem;
 
@@ -57,7 +57,7 @@ All colors MUST be HSL.
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-light)));
     --gradient-wellness: linear-gradient(135deg, hsl(var(--primary-glow)), hsl(var(--accent)));
     --gradient-earth: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
-    --gradient-hero: linear-gradient(135deg, hsl(120 50% 40%), hsl(35 80% 60%));
+    --gradient-hero: linear-gradient(135deg, hsl(40 60% 70%), hsl(35 75% 55%));
 
     /* Shadows */
     --shadow-soft: 0 2px 10px -2px hsl(var(--primary) / 0.1);
@@ -69,14 +69,14 @@ All colors MUST be HSL.
     --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     /* Sidebar colors */
-    --sidebar-background: 120 20% 98%;
-    --sidebar-foreground: 120 15% 25%;
-    --sidebar-primary: 120 45% 35%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 120 15% 95%;
-    --sidebar-accent-foreground: 120 15% 25%;
-    --sidebar-border: 120 20% 88%;
-    --sidebar-ring: 120 45% 35%;
+    --sidebar-background: 40 30% 92%;
+    --sidebar-foreground: 25 40% 25%;
+    --sidebar-primary: 40 80% 50%;
+    --sidebar-primary-foreground: 25 40% 15%;
+    --sidebar-accent: 40 25% 88%;
+    --sidebar-accent-foreground: 25 40% 25%;
+    --sidebar-border: 40 20% 80%;
+    --sidebar-ring: 40 80% 50%;
   }
 
   .dark {
